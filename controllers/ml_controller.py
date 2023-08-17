@@ -20,7 +20,7 @@ with open("scaler.pkl", "rb") as f:
 
 
 @router.post("/taken/predict",status_code=status.HTTP_201_CREATED,response_model=Prediction_Output)
-def predict_pulsar_star(item: Prediction_Input):
+def predict_taken_func(item: Prediction_Input):
     # Obtener los valores de las características desde el objeto item
     print(item)
     print(type(item))
