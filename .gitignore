@@ -1,0 +1,7 @@
+#Archivos descartados en tarea
+venv/
+*.h5
+*.pkl
+*.zip
+*.json
+*.csv
